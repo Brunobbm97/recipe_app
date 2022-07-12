@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes App</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="style.css"/>
     <script src="script.js" defer></script>
 </head>
@@ -12,16 +15,36 @@
     <div class="mobile-container">
         <header>
             <input type="text">
-            <button id="search">Search</button>
+            <button id="search"><i class="fas fa-search"></i></button>
         </header>
         <div class="fav-container">
             <h3>Favorite Meals</h3>
-            <ul>
+            <ul class="fav-meals">
                 <li><img src="https://www.themealdb.com/images/ingredients/Lime.png" alt=""><span>Lime</span></li>
                 <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
-                <li><img src="https://www.themealdb.com\/images\/media\/meals\/uryqru1511798039.jpg" alt=""><span>Lasagna</span></li>
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
+                
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
+                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/rvxxuy1468312893.jpg" alt=""><span>Lasagna</span></li>
             </ul>
         </div>
+        <div class="meals">
+            <div class="meal">
+                <div class="meal-header">
+                    <span class="random">
+                        Random Recipe
+                    </span>
+                    <img src="https://www.themealdb.com//images//media//meals//xxpqsy1511452222.jpg" alt="">
+                </div>
+                <div class="meal-body">
+                    <h4>Veggie VEggies</h4>
+                    <button><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
